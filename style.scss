@@ -1,10 +1,26 @@
+
+//01.Settings
 @import "./Assets/SCSS/01.Settings/settings-global" ;
 @import "./Assets/SCSS/01.Settings/settings-fonts" ;
+@import "./Assets/SCSS/01.Settings/settings-colors" ;
 
+
+//02.Tools
 @import "./Assets/SCSS/02.Tools/tools-mixins" ;
 
 
+//03.Generic
+
+
+//04.Elements
+@import "./Assets/SCSS/04.Elements/elements-links" ;
+
+//05.Objects
 @import "./Assets/SCSS/05.Objects/object-animations" ;
 
 
-@import "./Assets/SCSS/06.Components/components-header";
+//06. Components
+@import "./Assets/SCSS/06.Components/_components-header";
+@import "./Assets/SCSS/06.Components/_components-buttons";
+
+//07.Utilities
